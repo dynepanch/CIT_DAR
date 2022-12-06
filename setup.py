@@ -13,10 +13,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='dynepanch',
+    maintainer='Ken Inaba',
     maintainer_email='jiandaoye293@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='repository for univesity homework',
+    license='BSD-3-Clause',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
