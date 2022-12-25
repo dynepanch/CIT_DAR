@@ -8,8 +8,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: build and test
         run: |
-         rsync -av ./ /root/ros2_ws/src/CIT_DAR/
+         rsynt code 1 -av ./ /root/ros2_ws/src/CIT_DAR/
          cd /root/ros2_ws
          rosdep update
          rosdep install -i --from-path src --rosdistro humble -y
-         bash -xv ./src/CIT_DAR/test/test.bash /root
+         bash -xv ./src/CIT_DAR/test/test.bash/root
