@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'send = CIT_DAR.send:main',
-            'tips = CIT_DAR.tips:main',
+			'tips = CIT_DAR.tips:main',
+			'send = CIT_DAR.send:main',
         ],
     },
 )
