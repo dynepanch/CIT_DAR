@@ -1,0 +1,3 @@
+[console_scripts]
+send = CIT_DAR.send:main
+

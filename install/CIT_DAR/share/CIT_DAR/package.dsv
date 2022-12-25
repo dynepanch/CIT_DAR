@@ -1,0 +1,6 @@
+source;share/CIT_DAR/hook/pythonpath.ps1
+source;share/CIT_DAR/hook/pythonpath.dsv
+source;share/CIT_DAR/hook/pythonpath.sh
+source;share/CIT_DAR/hook/ament_prefix_path.ps1
+source;share/CIT_DAR/hook/ament_prefix_path.dsv
+source;share/CIT_DAR/hook/ament_prefix_path.sh
