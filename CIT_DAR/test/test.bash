@@ -4,6 +4,7 @@ dir=~
 [ "$1" != "" ] && dir="$1"
 
 ad=ros2 interface show person_msgs/srv/Query
+cd $dir/ros2_ws/scr
 [ "$ad" = "" ] && git clone https://github.com/dynepanch/person_msgs.git
 cd $dir/ros2_ws
 colcon build
