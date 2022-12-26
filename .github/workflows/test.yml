@@ -12,5 +12,4 @@ jobs:
          git clone https://github.com/dynepanch/person_msgs.git
          rosdep update
          rosdep install -i --from-path src --rosdistro humble -y
-         cd /root/ros2_ws/src/git clone https://github.com/dynepanch/person_msgs.git
          bash -xv ./src/CIT_DAR/CIT_DAR/test/test.bash /root
