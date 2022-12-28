@@ -1,3 +1,4 @@
 [console_scripts]
 send = CIT_DAR.send:main
+tips = CIT_DAR.tips:main
 

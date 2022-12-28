@@ -1,0 +1,29 @@
+running egg_info
+writing build/CIT_DAR/CIT_DAR.egg-info/PKG-INFO
+writing dependency_links to build/CIT_DAR/CIT_DAR.egg-info/dependency_links.txt
+writing entry points to build/CIT_DAR/CIT_DAR.egg-info/entry_points.txt
+writing requirements to build/CIT_DAR/CIT_DAR.egg-info/requires.txt
+writing top-level names to build/CIT_DAR/CIT_DAR.egg-info/top_level.txt
+reading manifest file 'build/CIT_DAR/CIT_DAR.egg-info/SOURCES.txt'
+writing manifest file 'build/CIT_DAR/CIT_DAR.egg-info/SOURCES.txt'
+running build
+running build_py
+copying CIT_DAR/send.py -> /home/dynepanch/ros2_ws/src/CIT_DAR/build/CIT_DAR/build/lib/CIT_DAR
+copying CIT_DAR/tips.py -> /home/dynepanch/ros2_ws/src/CIT_DAR/build/CIT_DAR/build/lib/CIT_DAR
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/dynepanch/ros2_ws/src/CIT_DAR/build/CIT_DAR/build/lib/CIT_DAR/send.py -> /home/dynepanch/ros2_ws/src/CIT_DAR/install/CIT_DAR/lib/python3.10/site-packages/CIT_DAR
+copying /home/dynepanch/ros2_ws/src/CIT_DAR/build/CIT_DAR/build/lib/CIT_DAR/tips.py -> /home/dynepanch/ros2_ws/src/CIT_DAR/install/CIT_DAR/lib/python3.10/site-packages/CIT_DAR
+byte-compiling /home/dynepanch/ros2_ws/src/CIT_DAR/install/CIT_DAR/lib/python3.10/site-packages/CIT_DAR/send.py to send.cpython-310.pyc
+byte-compiling /home/dynepanch/ros2_ws/src/CIT_DAR/install/CIT_DAR/lib/python3.10/site-packages/CIT_DAR/tips.py to tips.cpython-310.pyc
+running install_data
+copying launch/send_tips.launch.py -> /home/dynepanch/ros2_ws/src/CIT_DAR/install/CIT_DAR/share/CIT_DAR
+running install_egg_info
+removing '/home/dynepanch/ros2_ws/src/CIT_DAR/install/CIT_DAR/lib/python3.10/site-packages/CIT_DAR-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/CIT_DAR/CIT_DAR.egg-info to /home/dynepanch/ros2_ws/src/CIT_DAR/install/CIT_DAR/lib/python3.10/site-packages/CIT_DAR-0.0.0-py3.10.egg-info
+running install_scripts
+Installing send script to /home/dynepanch/ros2_ws/src/CIT_DAR/install/CIT_DAR/lib/CIT_DAR
+Installing tips script to /home/dynepanch/ros2_ws/src/CIT_DAR/install/CIT_DAR/lib/CIT_DAR
+writing list of installed files to '/home/dynepanch/ros2_ws/src/CIT_DAR/build/CIT_DAR/install.log'

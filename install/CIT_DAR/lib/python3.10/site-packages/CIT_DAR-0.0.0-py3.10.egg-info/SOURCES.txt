@@ -12,7 +12,5 @@ build/CIT_DAR/CIT_DAR.egg-info/entry_points.txt
 build/CIT_DAR/CIT_DAR.egg-info/requires.txt
 build/CIT_DAR/CIT_DAR.egg-info/top_level.txt
 build/CIT_DAR/CIT_DAR.egg-info/zip-safe
+launch/send_tips.launch.py
 resource/CIT_DAR
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
