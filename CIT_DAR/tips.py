@@ -8,7 +8,7 @@ from composition_interfaces.srv import LoadNode
 def main():
     rclpy.init()
     node = Node("tips")
-    client = node.create_client(LoadNode, 'LoadNode')
+    client = node.create_client(LoadNode, 'kyoju')
     while not client.wait_for_service(timeout_sec=1.0):
         node.get_logger().info('ちょっと待ってね')
 

@@ -37,5 +37,5 @@ def cb(request, response):
 
 rclpy.init()
 node = Node("send")
-srv = node.create_service(LoadNode, "LoadNode", cb)
+srv = node.create_service(LoadNode, "kyoju", cb)
 rclpy.spin(node)
