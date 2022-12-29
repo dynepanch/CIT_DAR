@@ -1,5 +1,7 @@
 # CIT_DAR
 
+![test](https://github.com/dynepanch/CIT_DAR/actions/workflows/test.yml/badge.svg)
+
 * このレポジトリはROS2のパッケージです
 
 # send.py
@@ -28,10 +30,10 @@ composition_interfaces.srv.LoadNode_Response(success=False, error_message='', fu
 # LICENSE
 このソフトウェアパッケージは3条項BSDライセンスの元、再配布及び使用が許可されています。
 
-
 連絡先:s21C1016HB@s.chibakoudai.jp
 
-LICENSE:https://github.com/dynepanch/CIT_DAR/blob/master/LICENSE
 千葉工業大学先進工学部未来ロボティクス学科のロボットシステム学で作成したレポジトリです。
+
+LICENSE:https://github.com/dynepanch/CIT_DAR/blob/master/LICENSE
 
 ©2022 Ken Inaba
