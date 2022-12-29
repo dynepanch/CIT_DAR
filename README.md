@@ -4,7 +4,9 @@
 
 # send.py
 このノードは千葉工業大学未来ロボティクス学科の教授の名前を受け取ると,その教授が4sで受け持っている授業を返すサービスです.
+
 通信にはcomposition_interfacesのLoadNodeに内蔵されているnode_nameとfull_node_nameを用いています。
+
 サービス名は/kyojuです
 動作例
 
