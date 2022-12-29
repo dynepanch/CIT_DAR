@@ -8,6 +8,7 @@
 通信にはcomposition_interfacesのLoadNodeに内蔵されているnode_nameとfull_node_nameを用いています。
 
 サービス名は/kyojuです
+
 動作例
 
 ```
