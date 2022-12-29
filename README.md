@@ -54,6 +54,8 @@ $端末2 ros2 run CIT_DAR tips
 [INFO] [1672286253.456830800] [tips]: subject: 未来ロボティクス総合セミナー
 
 ```
+
+千葉工業大学の上田隆一先生のソースコードを授業のため流用しています。
 # send_tips.launch.py
 このノードはsendとtipsを同時に起動するlaunchファイルです。
 
@@ -81,6 +83,8 @@ $ ros2 launch CIT_DAR send_tips.launch.py
 [INFO] [tips-2]: process has finished cleanly [pid 2712]
 
 ```
+
+千葉工業大学の上田隆一先生のソースコードを授業のため流用しています。
 
 # テスト環境
 
