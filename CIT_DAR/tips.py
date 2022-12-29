@@ -1,3 +1,6 @@
+
+#SPDX-FileCopyrightText: 2022 Ken Inaba rightman20020920@yahoo.co,jp
+#SPDX-Licence-Identifire: BSD-3-Clause
 import rclpy
 from rclpy.node import Node
 from composition_interfaces.srv import LoadNode
