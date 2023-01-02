@@ -11,7 +11,7 @@ def main():
     while not client.wait_for_service(timeout_sec=1.0):
         node.get_logger().info('ちょっと待ってね')
 
-    req = LoadNode.Request()
+    req = Query.Request()
     req.name = "上田隆一"
     future = client.call_async(req)
     while rclpy.ok():
