@@ -13,7 +13,7 @@ jobs:
          git clone https://github.com/dynepanch/person_msgs.git
          cd ../
          colcon build /root
-         source ~/.bashrc
+         source root/.bashrc
          rosdep update
          rosdep install -i --from-path src --rosdistro humble -y
          colcon build
