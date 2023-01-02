@@ -13,6 +13,5 @@ jobs:
          rosdep update
          rosdep install -i --from-path src --rosdistro humble -y
          colcon build
-         source root/.bashrc
          bash -xv ./src/CIT_DAR/CIT_DAR/test/test.bash /root
          
