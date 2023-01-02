@@ -1,4 +1,3 @@
-
 #SPDX-FileCopyrightText: 2022 Ken Inaba rightman20020920@yahoo.co,jp
 #SPDX-Licence-Identifire: BSD-3-Clause
 import launch
@@ -8,12 +7,12 @@ import launch_ros.actions
 import time
 def generate_launch_description():
     send = launch_ros.actions.Node(
-        package='CIT_DAR',
+        package='cit_dar',
         executable='send',
     )
     time.sleep(5) 
     tips = launch_ros.actions.Node(
-        package='CIT_DAR',
+        package='cit_dar',
         executable='tips',
         output='screen'
     )

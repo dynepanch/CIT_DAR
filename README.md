@@ -1,4 +1,4 @@
-# CIT_DAR
+# cit_dar
 
 ![test](https://github.com/dynepanch/CIT_DAR/actions/workflows/test.yml/badge.svg)
 
@@ -14,9 +14,11 @@
 動作例
 
 ```
-$端末1 ros2 run CIT_DAR send
+端末1
+$ ros2 run CIT_DAR send
 
-$端末2  ros2 service call /kyoju composition_interfaces/srv/LoadNode "node_name: 上田隆一"
+端末2
+$  ros2 service call /kyoju composition_interfaces/srv/LoadNode "node_name: 上田隆一"
 
 requester: making request: composition_interfaces.srv.LoadNode_Request(package_name='', plugin_name='', node_name='上田 隆一', node_namespace='', log_level=0, remap_rules=[], parameters=[], extra_arguments=[])
 
@@ -36,9 +38,11 @@ URL:https://hub.docker.com/repository/docker/ryuichiueda/ubuntu22.04-ros2
 
 動作例
 ```
-$端末1 ros2 run CIT_DAR send
+端末1
+$ ros2 run CIT_DAR send
 
-$端末2 ros2 run CIT_DAR tips
+端末2
+$ ros2 run CIT_DAR tips
 
 [INFO] [1672286253.443813900] [tips]: subject: ロボットシステム学
 [INFO] [1672286253.444931600] [tips]: subject: 数値解析学１・信号処理論
@@ -90,6 +94,15 @@ $ ros2 launch CIT_DAR send_tips.launch.py
 
 * Ubuntu22.04.1LTS
 * ros2-desktop
+
+テストの結果は問題なく動作しています。
+
+千葉工業大学の上田隆一先生のソースコードを授業のため流用しています。
+
+Github Actionsのテストには千葉工業大学の上田隆一先生のコンテナを使用しています
+
+URL:https://hub.docker.com/repository/docker/ryuichiueda/ubuntu22.04-ros2
+
 
 # LICENSE
 このソフトウェアパッケージは3条項BSDライセンスの元、再配布及び使用が許可されています。

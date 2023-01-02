@@ -2,7 +2,7 @@ from setuptools import setup
 import os
 from glob import glob
 
-package_name = 'CIT_DAR'
+package_name = 'cit_dar'
 
 setup(
     name=package_name,
@@ -23,8 +23,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-			'tips = CIT_DAR.tips:main',
-			'send = CIT_DAR.send:main',
+			'tips = cit_dar.tips:main',
+			'send = cit_dar.send:main',
         ],
     },
 )
