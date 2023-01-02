@@ -75,12 +75,24 @@ $ ros2 launch CIT_DAR send_tips.launch.py
 [INFO] [tips-2]: process has finished cleanly [pid 2712]
 
 ```
+# 導入方法
 
+
+```
+~/ros2_ws/src/$ git clone https://github.com/dynepanch/CIT_DAR.git
+
+~/ros2_ws/src/$ colcon build
+```
+このレポジトリのクローンはros2_ws/src内で行ってください
+
+使用の前はビルド作業を行ってください
+
+動作を確認したい際には、上記のを send_tips.launch.py起動してください
 
 # テスト環境
 
 * Ubuntu22.04.1LTS
-* ros2-desktop
+* ROS2 Humble Hawksbill
 テストの結果は問題なく動作しています。
 
 千葉工業大学の上田隆一先生のソースコードを授業のため流用しています。
