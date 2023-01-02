@@ -4,7 +4,6 @@
 dir=~
 [ "$1" != "" ] && dir="$1"
 
-./dir/ros2_ws/src/CIT_DAR/CIT_DAR/person.bash
 
 cd $dir/ros2_ws
 colcon build
