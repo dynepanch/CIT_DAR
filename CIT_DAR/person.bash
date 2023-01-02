@@ -11,11 +11,11 @@ git clone https://github.com/dynepanch/person_msgs.git
 
 sleep 30
 
-#cd $dir/ros2_ws
+cd $dir/ros2_ws
 
-#colcon build
+colcon build
 
-#source $dir/.bashrc
+source $dir/.bashrc
 
-#ros2 interface show person_msgs/srv/Query
+ros2 interface show person_msgs/srv/Query
 
