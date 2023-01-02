@@ -7,16 +7,18 @@
 # send.py
 このノードは千葉工業大学未来ロボティクス学科の教授の名前を受け取ると、その教授が4sで受け持っている授業を返すサービスです。
 
-通信にはcomposition_interfacesのLoadNodeに内蔵されているnode_nameとfull_node_nameを用いています。
+通信には[person_msgs](https://github.com/dynepanch/person_msgs)に内蔵されているnameとtipsを用いています。
 
 サービス名は/kyojuです
 
 動作例
 
 ```
-$端末1 ros2 run CIT_DAR send
+端末1
+$ ros2 run CIT_DAR send
 
-$端末2  ros2 service call /kyoju composition_interfaces/srv/LoadNode "node_name: 上田隆一"
+端末2
+$  ros2 service call /kyoju composition_interfaces/srv/LoadNode "node_name: 上田隆一"
 
 requester: making request: composition_interfaces.srv.LoadNode_Request(package_name='', plugin_name='', node_name='上田 隆一', node_namespace='', log_level=0, remap_rules=[], parameters=[], extra_arguments=[])
 
@@ -29,9 +31,11 @@ composition_interfaces.srv.LoadNode_Response(success=False, error_message='', fu
 
 動作例
 ```
-$端末1 ros2 run CIT_DAR send
+端末1
+$ ros2 run CIT_DAR send
 
-$端末2 ros2 run CIT_DAR tips
+端末2
+$ ros2 run CIT_DAR tips
 
 [INFO] [1672286253.443813900] [tips]: subject: ロボットシステム学
 [INFO] [1672286253.444931600] [tips]: subject: 数値解析学１・信号処理論
@@ -81,7 +85,16 @@ $ ros2 launch CIT_DAR send_tips.launch.py
 ```
 ~/ros2_ws/src/$ git clone https://github.com/dynepanch/CIT_DAR.git
 
-~/ros2_ws/src/$ colcon build
+~/ros2_ws/src/$ ./CIT_DAR/CIT_DAR/person.bash
+string name
+---
+string tips
+0
+
+
+~/ros2_ws/$ colcon build
+
+
 ```
 このレポジトリのクローンはros2_ws/src内で行ってください
 
