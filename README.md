@@ -91,10 +91,7 @@ string name
 string tips
 0
 
-
 ~/ros2_ws/$ colcon build
-
-
 ```
 このレポジトリのクローンはros2_ws/src内で行ってください
 
