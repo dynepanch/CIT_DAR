@@ -29,4 +29,3 @@ cat /tmp/CIT_DAR.log |
 cat /tmp/CIT_DAR.log |
 	grep '設計制作'
 
-echo $?
