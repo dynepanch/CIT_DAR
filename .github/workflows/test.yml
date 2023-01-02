@@ -11,7 +11,9 @@ jobs:
          rsync -av ./ /root/ros2_ws/src/CIT_DAR/
          cd /root/ros2_ws/src
          git clone https://github.com/dynepanch/person_msgs.git
-         cd /root/ros2_ws
+         cd ../
+         colcon build /root
+         source ~/.bashrc
          rosdep update
          rosdep install -i --from-path src --rosdistro humble -y
          colcon build
