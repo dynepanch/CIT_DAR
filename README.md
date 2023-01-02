@@ -24,13 +24,6 @@ response:
 composition_interfaces.srv.LoadNode_Response(success=False, error_message='', full_node_name='ロボットシステム学', unique_id=0)
 
 ```
-テストの結果は問題なく動作しています。
-
-千葉工業大学の上田隆一先生のソースコードを授業のため流用しています。
-
-Github Actionsのテストには千葉工業大学の上田隆一先生のコンテナを使用しています
-
-URL:https://hub.docker.com/repository/docker/ryuichiueda/ubuntu22.04-ros2
 # tips.py
 このノードはsend.pyを用いて千葉工業大学未来ロボティクス学科の4sの専門授業を列挙します。
 
@@ -55,7 +48,6 @@ $端末2 ros2 run CIT_DAR tips
 
 ```
 
-千葉工業大学の上田隆一先生のソースコードを授業のため流用しています。
 # send_tips.launch.py
 このノードはsendとtipsを同時に起動するlaunchファイルです。
 
@@ -84,12 +76,18 @@ $ ros2 launch CIT_DAR send_tips.launch.py
 
 ```
 
-千葉工業大学の上田隆一先生のソースコードを授業のため流用しています。
 
 # テスト環境
 
 * Ubuntu22.04.1LTS
 * ros2-desktop
+テストの結果は問題なく動作しています。
+
+千葉工業大学の上田隆一先生のソースコードを授業のため流用しています。
+
+Github Actionsのテストには千葉工業大学の上田隆一先生のコンテナを使用しています
+
+URL:https://hub.docker.com/repository/docker/ryuichiueda/ubuntu22.04-ros2
 
 # LICENSE
 このソフトウェアパッケージは3条項BSDライセンスの元、再配布及び使用が許可されています。
