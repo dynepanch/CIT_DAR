@@ -6,5 +6,6 @@ dir=~
 
 cd $dir/ros2_ws/src
 git clone https://github.com/dynepanch/person_msgs.git
+cd ../
 colcon build
 source $dir/.bashrc
