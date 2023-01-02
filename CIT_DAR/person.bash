@@ -9,6 +9,10 @@ cd $dir/ros2_ws/src
 
 git clone https://github.com/dynepanch/person_msgs.git
 
+cd ../
+
+colcon build
+
 ros2 interface show person_msgs/srv/Query
 
 echo $?
