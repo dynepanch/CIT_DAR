@@ -7,7 +7,8 @@ dir=~
 
 cd $dir/ros2_ws/src
 
-git clone https://github.com/dynepanch/person_msgs.git
+timeout 20 git clone https://github.com/dynepanch/person_msgs.git
+
 
 
 #cd $dir/ros2_ws
