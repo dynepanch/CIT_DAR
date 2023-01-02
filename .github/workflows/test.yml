@@ -9,13 +9,8 @@ jobs:
       - name: build and test
         run: | 
          rsync -av ./ /root/ros2_ws/src/CIT_DAR/
-         cd /root/ros2_ws/src
-         git clone https://github.com/dynepanch/person_msgs.git
-         cd ../
-         colcon build /root
-         source root/.bashrc
+         cd /root/ros2_ws
          rosdep update
          rosdep install -i --from-path src --rosdistro humble -y
-         colcon build
          bash -xv ./src/CIT_DAR/CIT_DAR/test/test.bash /root
          
