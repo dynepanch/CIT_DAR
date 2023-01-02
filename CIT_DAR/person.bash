@@ -12,7 +12,8 @@ git clone https://github.com/dynepanch/person_msgs.git
 cd $dir/ros2_ws
 
 colcon build
-$dir/.bashrc
+
+source $dir/.bashrc
 
 ros2 interface show person_msgs/srv/Query
 
