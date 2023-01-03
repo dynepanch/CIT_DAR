@@ -7,18 +7,9 @@ dir=~
 
 cd $dir/ros2_ws/src
 
-ros2 pkg create --build-type ament_cmake person_msgs
+git clone https://github.com/dynepanch/person_msgs.git
 
-cd persom_msgs
-
-cat person_Cmake > Cmake.txt
-cat person_pac > package.xml
-
-mkdir srv
-
-cd srv
-
-cat Query > Query.srv
+echo $?
 
 cd $dir/ros2_ws
 colcon build
