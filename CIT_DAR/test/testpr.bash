@@ -4,13 +4,25 @@
 dir=~
 [ "$1" != "" ] && dir="$1"
 
-./$dir/ros2_ws/src/CIT_DAR/CIT_DAR/person.bash
-
-cd $dir/ros2_ws
-colcon build
 source $dir/.bashrc
 
-ros2 interface show person_msgs/srv/Query
+cd $dir/ros2_ws/src
+
+git clone https://github.com/dynepanch/person_msgs.git
+
+cd $dir/ros2_ws
+
+colcon build
+
+source $dir/.bashrc
+
+ros2 interface show "person_msgs/srv/Query"
+
+cd $dir/ros2_ws
+
+colcon build
+
+source $dir/.bashrc
 
 timeout 20 ros2 launch CIT_DAR send_tips.launch.py > /tmp/CIT_DAR.log
 
