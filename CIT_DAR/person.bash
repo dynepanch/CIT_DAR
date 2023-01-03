@@ -4,15 +4,9 @@
 
 dir=~
 [ "$1" != "" ] && dir="$1"
-
 source $dir/.bashrc
-
 cd $dir/ros2_ws/src
-
 git clone https://github.com/dynepanch/person_msgs.git
-
-echo $?
-
 cd $dir/ros2_ws
 colcon build
 source $dir/.bashrc
