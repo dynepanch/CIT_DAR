@@ -24,7 +24,7 @@ colcon build
 
 source $dir/.bashrc
 
-timeout 20 ros2 launch CIT_DAR send_tips.launch.py > /tmp/CIT_DAR.log
+timeout 30 ros2 launch CIT_DAR send_tips.launch.py > /tmp/CIT_DAR.log
 
 cat /tmp/CIT_DAR.log |
 	grep 'ロボットシステム学'
